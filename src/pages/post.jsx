@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import {ethers} from 'ethers';
 
-import LandRegistry from '../../contracts/artifacts/contracts/LandRegistry.sol/LandRegistry.json'; // Replace with your contract's artifact
+import LandRegistry from '../../contracts/contracts/LandRegistry.sol'; // Replace with your contract's artifact
 
 export default function CreateProperty() {
   const [name, setName] = useState('');
